@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.top img{
+    position: relative;
+    left: 120px;
+    cursor: pointer;
+}
+.top p{
+    border: 1px solid rgb(254,205,102);
+    position: relative;
+    font-size: 13px;
+    left: 340px;
+    bottom: 70px;
+    padding: 5px;
+    width: 840px;
+}
+.box{
+    width: 1380px;
+    height: 520px;
+    position: relative;
+    bottom: 30px;
+}
+#big-box{
+    border: 1px solid white;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    right: 130px;
+    top: 160px;
+    height: 410px;
+    width: 370px;
+}
+.qrcode-main{
+    width: 306px;
+    height: 168px;
+    padding: 0 5px;
+    padding-left: 45px;
+    padding-top: 40px;
+    padding-right: 10px;
+    position: relative;
+    border:1px solid rgb(244,244,244);
+    border-top: none;
+    overflow: hidden
+}
+.qrcode-main .qrcode-img{
+    position: absolute;
+    padding: 8px;
+    left: 0px;
+    border:1px solid rgb(244,244,244);
+}
+.qrcode-main .qrcode-help{
+    position: absolute;
+    background-image: url("../login/images/scan.png");
+    background-repeat: no-repeat;
+    width: 148px;
+    height: 168px;
+    right: -7px;
+    display: none;
+}
+.app p{
+    font-size: 12px;
+    position: absolute;
+    top: 280px;
+    left: 110px;
+}
+.app p>a{
+    color: rgb(255,102,0);
+    cursor: pointer;
+
+}
+.app p>a:hover{
+    text-decoration: underline;
+}
+.login-box{
+    width: 316px;
+    height: 168px;
+}
+.center{
+    margin: 0 auto;
+    position: relative;
+    left: 25px;
+    top: 28px;
+}
+.login-box .login-item{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border:1px solid rgb(187,187,187);
+    width: 100%;
+    height:40px;
+
+}
+input:-webkit-autofill{
+    background-color: #fff;
+}
+.login-box .login-item input{
+    border:none;
+    height: 36px;
+    width: 275px;
+    outline: none;
+    text-indent: 1.2em;
+}
+.login-box .login-item label{
+    display: block;
+    float: left;
+    width: 38px;
+    height: 38px;
+    background-image: url("../login/images/sprite.png");
+    background-repeat: no-repeat;
+    border-right:1px solid rgb(187,187,187);
+    background-position: -122px -65px;
+}
+.login-box .login-item:first-child label{
+
+}
+.login-box .login-item:last-child label{
+    background-position: -41px -65px;
+}
+.deltext:hover{
+    cursor: pointer;
+    background-position: -50px -143px;
+}
+.deltext{
+    width: 17px;
+    height:17px;
+    background-image: url("../login/images/sprite.png");
+    background-repeat: no-repeat;
+    float: right;
+    position: relative;
+    bottom:14px;
+    margin-top: -8.5px;
+    margin-right: 5px;
+    background-position: -91px -121px;
+    /*display: none;*/
+}
+.title{
+    width: 316px;
+    height:50px;
+    position: relative;
+    left: 25px;
+}
+.hr{
+    border: 1px solid #d2d4d6;
+    border-top: none;
+}
+.title span{
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 0 39px;
+}
+.title span:hover{
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+.title .line{
+    position: absolute;
+    border-right: 1px solid rgb(187,187,187);
+    height:20px;
+    left:50%;
+    top:50%;
+    margin-top: -10px;
+}
+.current{
+    color:rgb(255,102,0);
+    font-weight:bold;
+}
+.info .phone{
+    border: 0px;
+    width:17px;
+    height: 21px;
+    background-image: url("../login/images/sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0 -145px;
+    position: relative;
+    top: 10px;
+}
+.info p{
+    font-size: 12px;
+    position: relative;
+    left: 16px;
+    top: -6px;
+}
+.info p a:nth-child(2){
+    float: right;
+    position: relative;
+    right: 15px;
+}
+.info p a:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.btn{
+    border: 1px solid rgb(255,102,0);
+    background-color: rgb(255,102,0);
+    width: 312px;
+    height: 40px;
+    cursor: pointer;
+}
+#submit p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(255,66,0);
+}
+.zhuce1{
+    font-size: 12px;
+    position: relative;
+    top: 66px;
+    color: #5a5156;
+    text-align: center;
+}
+.zhuce2{
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    top: 34px;
+    color: #5a5156;
+}
+.zhuce1:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.zhuce2:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-ways p:nth-child(1){
+    font-size: 13px;
+    position: absolute;
+    right:25px;
+    bottom: 40px;
+    color: #adaeb0;
+}
+.login-ways p:nth-child(2){
+    font-size: 13px;
+    position: absolute;
+    right: 71px;
+    bottom: 10px;
+    width: 280px;
+}
+.login-ways p>span>img{
+    position: relative;
+    top: 6px;
+}
+.login-ways span t:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bottom{
+    position: relative;
+    bottom: 17px;
+}
+.bottom p:nth-child(1){
+    color: #77787a;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+.bottom p:nth-child(2){
+    color: #77787a;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.bottom p:nth-child(3){
+    color: #97989a;
+    text-align: center;
+    font-size: 12px ;
+    padding-bottom: 15px;
+}
+
+.bottom p>span{
+    font-size: 12px ;
+    color: #77787a;
+}
+.bottom p>span:hover{
+    color: rgb(255,102,0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bottom-image{
+    text-align: center;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
